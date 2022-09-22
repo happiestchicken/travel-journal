@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className='header'>
             <i class="globe-icon fa-solid fa-earth-americas"></i>
-            <p className="header-text">my travel journal.</p>    
+            <p className="header-text">My Travel Journal</p>    
         </div>
     )
 }

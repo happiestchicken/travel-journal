@@ -1,8 +1,9 @@
 :root {
-    --cherry: #ed2939;
     --grey: #cccccc;
-    --almost-white: #dddddd;
     --link-color: #aaaaaa;
+    --cherry: #ed2939;
+    --almost-white: #dddddd;
+
 }
 
 body {
