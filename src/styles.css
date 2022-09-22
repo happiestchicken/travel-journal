@@ -1,0 +1,112 @@
+:root {
+    --cherry: #ed2939;
+    --grey: #cccccc;
+    --almost-white: #dddddd;
+    --link-color: #aaaaaa;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+}
+
+.whole-div {
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    background-color: var(--cherry);
+    border-radius: 20px 20px 0 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.header-text {
+    color: var(--almost-white);
+    font-size: 16px;
+}
+
+.globe-icon {
+    color: var(--almost-white);
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.places-list {
+    overflow-y: scroll;
+}
+
+.places-list::-webkit-scrollbar {
+    display: none;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 35px;
+}
+
+.pictures {
+    width: 150px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 210px;
+    margin-left: 14px;
+}
+
+.location {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.maps-link {
+    margin-left: 10px;
+    font-size: 12px;
+    color: var(--link-color);
+}
+
+.location-icon {
+    color: var(--cherry);
+    margin-right: 6px;
+}
+
+.place {
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.start-end-class {
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 13px;
+}
